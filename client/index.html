@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        button {
+            border: none;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #53624F;
+            margin: 0 0 2rem;
+            line-height: 1.65;
+            overflow-y: scroll;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            text-transform: uppercase;
+        }
+
+        .title {
+            margin-block: 0;
+            font-size: 1.75rem;
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .container,
+        .unauthorized,
+        .notfound {
+            padding-inline: 1rem;
+        }
+
+        form {
+            border-radius: 1rem;
+            margin: 0rem auto;
+            background-color: #fff;
+            max-width: 450px;
+        }
+
+        form footer .small {
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .button-empty,
+        .button-solid:hover {
+            background-color: #fff;
+            color: #53624F;
+        }
+
+        .button-empty:hover,
+        .button-solid {
+            background-color: #53624F;
+            color: white;
+        }
+
+        .button-default {
+            padding: .85rem 1.2rem;
+            border-radius: 5px;
+            transition: .2s;
+            outline-offset: -1px;
+            outline: 1px solid #53624F;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="./src/main.jsx" type="module"></script>
+</body>
+
+</html>
