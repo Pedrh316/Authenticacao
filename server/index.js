@@ -5,7 +5,9 @@ const cors = require('cors');
 const route = require('./routes/user');
 require('dotenv').config();
 
-app.use(cors());
+app.use(cors({
+    origin:"http://localhost:5173"
+}));
 app.use(express.json());
 app.use('/api/auth', route);
 
