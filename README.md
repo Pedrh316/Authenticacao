@@ -1,6 +1,3 @@
-# Índice 
-* [Tutorial](#Tutorial)
-
 # Tutorial
 ## Requisitos
 - MongoDB
