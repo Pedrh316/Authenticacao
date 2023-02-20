@@ -1,8 +1,5 @@
 # Índice 
 * [Tutorial](#Tutorial)
-* [Passos](##Passos)
-* [Execução](##Execução)
-* [Visualização](##Visualização)
 
 # Tutorial
 ## Requisitos
