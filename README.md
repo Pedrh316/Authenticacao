@@ -1,3 +1,20 @@
+# Índice
+* [Sobre](#Sobre)
+* [Tutorial](#Tutorial)
+
+# Sobre
+A construção deste projeto tem por objetivo consolidar meus conhecimentos em tratamentos de rotas privadas e publicas através do próprio react com a biblioteca chamada react-router-dom. Algumas funcionalidades interessantes nesse projeto são:
+- Animação de loading durante os envios de formulários e mudanças nos tipos de rotas (privadas e publicas);  
+- Mensagens de erro no formulário com as melhores práticas, além da utilização de regex no atributo pattern dos inputs HTML, para validação dos campos dos mesmos;  
+- Navegação rápida por meio do tratamento de rotas no próprio front-end, o que impede a continuação de requisições HTTP GET;  
+- Banco de dados MongoDB para armazenamento dos dados do usuário e geração do token para melhor experiência do mesmo.  
+- Os menus são modificados de acordo com o status de autenticação do cliente, além de possuir itens para demonstração prática do funcionamento do controle de rotas públicas e privadas.  
+
+## Arquitetura
+Sobre a arquitetura do projeto, fora utilizado práticas de clean architecture para melhor manutenção como a criação das camadas UseCases para interação com o servidor, Controllers para separar a lógica da camada de rotas, Schemas no frontend, que servem como as models do backend para criar estruturas de interface dos fomulários, Hooks para criação de hooks customizados, utils para criação de constantes que serão utilizadas no projeto deixando o projeto mais desacoplado, entre outros.
+
+Como o projeto tem a utilização do back-end, preferi deixar o link somente do repositório do projeto no github. Portanto, abaixo está o link do tutorial para que o leitor possa rodar isso em sua própria máquina no sistema operacional windows.
+
 # Tutorial
 ## Requisitos
 - MongoDB
